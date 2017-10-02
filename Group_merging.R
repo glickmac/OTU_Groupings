@@ -19,7 +19,6 @@ if(is.element("--help", args) | is.element("-h", args) | is.element("-help", arg
 }
 
 ## Load required libraries
-options(warn = -1)
 library(plyr)
 library(dplyr)
 
