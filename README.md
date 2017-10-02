@@ -15,6 +15,7 @@
 ## <a name="install"></a>Installing OTU_Groupings
 
 Required software
++ QIIME: [download](http://qiime.org/install/index.html)
 + R: [download](https://cran.r-project.org/)
 + R plyr: [documentation](https://cran.r-project.org/web/packages/plyr/index.html)
 + R dplyr: [documentation](https://cran.r-project.org/web/packages/dplyr/index.html) 
