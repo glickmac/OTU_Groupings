@@ -11,11 +11,9 @@ threads=2
 usage(){ echo "$0 usage:" && grep " .)\ #" $0; exit 0; }
 [ $# -eq 0 ] && usage
 
-while getopts ":h:o:b:t:" option
+while getopts ":h:b:t:" option
 do
 case "${option}" in
-        o) # The path to the output directory
-		outdir=${OPTARG};;
         b) # The path to and including the biom table
 		biom=${OPTARG};;
         t) # The numeric threshold amount for low abundance filtering
