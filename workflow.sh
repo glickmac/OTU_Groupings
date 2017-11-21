@@ -31,7 +31,6 @@ biom convert -i $biom -o biom_tsv.txt --to-tsv --header-key taxonomy
 
 ## Remove first line of converted biom file
 sed -i -e '1d' biom_tsv.txt
-rm biom_tsv.txt-e
 
 ### Begin taxonomic processing
 
